@@ -66,6 +66,7 @@
         margin-top: 10px;
         /* margin-left: 15px; */
         /* width: 100%; */
+        margin-left: 20px;
     }
 
 }
@@ -108,12 +109,9 @@
 
     .preview-container, .testing-container {
         padding: 0px;
-        margin-left: 10px;
-        /* margin-left: -75px; */
-
     }
     .preview-image, .testing-image{
-        width: 270px;
+        width: 260px;
     }
 
 }
