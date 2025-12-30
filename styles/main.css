@@ -108,7 +108,8 @@
 
     .preview-container, .testing-container {
         padding: 0px;
-        margin-left: -75px;
+        margin-left: 10px;
+        /* margin-left: -75px; */
 
     }
     .preview-image, .testing-image{
