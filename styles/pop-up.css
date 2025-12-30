@@ -1,0 +1,40 @@
+.modal {
+    opacity: 0;
+    position: relative; 
+    top: 240px;
+    right: 120px;
+    transition: all 0.3s ease;
+    z-index: -2;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.modal.open {
+    opacity: 1;
+    z-index: 120;
+}
+
+.modal-inner {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    
+}
+.profile-image {
+    width: 180px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.modal-inner p {
+    line-height: 24px;
+    margin: 10px 0;
+    font-size: 16px;
+}
