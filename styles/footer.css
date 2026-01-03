@@ -48,14 +48,14 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: 40px;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 .youtube-logo {
-    width: 40px;
+    width: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: 30px;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 .youtube-logo:hover, .linkedin-logo:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
